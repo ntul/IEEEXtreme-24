@@ -7,15 +7,12 @@ import java.util.*;
 
 //Math Challenge using Fast Doubling Factorial, Euler's Totient Theorem, Chinese Remainder Theorem,
 
-public class MathChallengeFinal {
+public class Main {
+	
     static final long mL  = 1000000007L;
     static final long mL1 = 1000000006L;
     
-    static long startTime, finishTime;
-    
-    // Initialize result
-         // Or BigInteger.ONE
-    
+    static long startTime, finishTime;    
     static boolean isFirst=true;
     
     static long getFastFactorial(long num,long num1, long m)
